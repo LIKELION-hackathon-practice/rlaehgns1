@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import service.UserService;
 
 @RestController //RESTful 웹 서비스의 컨트롤러, 클래스 내 메서드들은 JSON의 형태로 HTTP응답을 반환.
+//
 @RequestMapping("/api/users")
 public class UserController {
     @Autowired
